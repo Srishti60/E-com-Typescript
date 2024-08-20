@@ -1,0 +1,49 @@
+[
+    {
+"id": 26,
+"productName": "Laptop",
+"image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+"price": 60000
+},
+{
+    "id": 27,
+    "productName": "Samsung",
+    "image": "https://images.unsplash.com/photo-1507955987999-df4864ee80d4?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": 16000
+    },
+    {
+        "id": 28,
+        "productName": "MacBook Pro",
+        "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 90000
+},
+{
+            "id": 29,
+            "productName": "Camera",
+            "image": "https://plus.unsplash.com/premium_photo-1663134149019-284682ece04c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "price": 40000
+},
+{
+    "id": 30,
+    "productName": "MacBook",
+    "image": "https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": 110000
+},
+{
+    "id": 31,
+    "productName": "Headphone",
+    "image": "https://plus.unsplash.com/premium_photo-1679513691474-73102089c117?q=80&w=1413&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": 2000
+},
+{
+    "id": 32,
+    "productName": "Earpods",
+    "image": "https://images.unsplash.com/photo-1505236273191-1dce886b01e9?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": 1200
+},
+{
+    "id": 33,
+    "productName": "Tablet",
+    "image": "https://images.unsplash.com/photo-1440337386388-f5fd01e85bd5?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": 50000
+}]
