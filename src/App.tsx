@@ -2,19 +2,27 @@ import './App.css';
 import Product from './Component/card';
 import Header from './Component/header';
 import products from './products.json';
-import { ContextProvider } from './context/store';
+
+import { useCart } from './context/store';
 function App() {
+
+  const searchValue = useCart();
+  console.log("searchValue",searchValue);
+
+  const filterProducts = products.filter((product)=> product.productName.toLowerCase().includes((searchValue?.inputValue || '').toLowerCase()))
+
   return (
     <div className="App">
-      <ContextProvider>
+     
     <Header/>
+    
     <div className='products'>
-    {products.map((card)=>(
+    {filterProducts.map((card)=>(
         <Product key={card.id} {...card} />
     ))}
     
   </div>
-  </ContextProvider>
+
     </div>
   );
 }
