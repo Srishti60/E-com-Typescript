@@ -4,11 +4,10 @@ import Card from 'react-bootstrap/Card';
 import { useCart } from '../context/store';
 
 interface MyCardProps {
-    productName:string;
-    price: number;
-    image : string;
+  name: string;
+  price: number;
+  image: string;
 }
-
 
 const Product: React.FC<MyCardProps> = (props)=>{
 
@@ -19,11 +18,11 @@ const Product: React.FC<MyCardProps> = (props)=>{
         <Card >
           <Card.Img variant="top" src={props.image}  />
           <Card.Body>
-            <Card.Title>{props.productName}</Card.Title>
+            <Card.Title>{props.name}</Card.Title>
             <Card.Text>
             Rs.{props.price}
             </Card.Text>
-            <Button variant="primary" onClick={(e)=>cart?.setItem([...cart.value,{name:props.productName,price:props.price}])}>Add To cart</Button>
+            <Button variant="primary" onClick={(e)=>cart?.setItem([...cart.value,{name:props.name,price:props.price}])}>Add To cart</Button>
           </Card.Body>
         </Card>
         </div>
